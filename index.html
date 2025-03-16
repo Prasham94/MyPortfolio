@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loading-page">
+        <div class="loader"></div>
+        <h2 class="welcome-text">Welcome to My Portfolio</h2>
+    </div>
+
+    <!-- Rest of your HTML -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="profile">
+                <div class="profile-image">
+                    <!-- Replace with your local image -->
+                    <img src="images/Prasham Image.png" alt="Profile Image">
+                </div>
+                <h1 class="name">Prasham Jain</h1>
+                <p class="title">
+                    <span id="dynamic-title">Full Stack Developer</span>
+                </p>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</p>
+            </div>
+        </header>
+
+        <main>
+            <!-- About Section -->
+            <section class="card" id="about">
+                <div class="card-header">
+                    <i class="fas fa-user"></i>
+                    <h2>About</h2>
+                    <i class="fas fa-chevron-up toggle-icon"></i>
+                </div>
+                <div class="card-content">
+                    <p>I am <span class="highlight">Prasham Jain</span>, a Student at <span class="highlight">SRM Institute of Science and Technology</span>, I specialize in full-stack development with experience in React, Node.js, Python, and Django. I am passionate about building AI-powered solutions, such as navigation systems for the visually impaired and stock market prediction tools. With a solid foundation in machine learning, I focus on creating scalable, high-performance applications. My strong communication and teamwork skills allow me to collaborate effectively and contribute to impactful projects.</p>
+                </div>
+            </section>
+
+<!-- Files/Resume Section -->
+<section class="card" id="files">
+    <div class="card-header">
+        <i class="fas fa-file-alt"></i>
+        <h2>Files</h2>
+        <i class="fas fa-chevron-up toggle-icon"></i>
+    </div>
+    <div class="card-content">
+        <div class="resume-container">
+            <h3>Resume</h3>
+            <p>View and download my resume</p>
+            <a href="Prasham_Jain (1).pdf" class="download-btn" download>
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="card" id="work">
+    <div class="card-header">
+        <i class="fas fa-briefcase"></i>
+        <h2>Work</h2>
+        <i class="fas fa-chevron-up toggle-icon"></i>
+    </div>
+    <div class="card-content">
+        <!-- First Job -->
+        <div class="job">
+            <div class="job-header">
+                <h3>Braud Gauge</h3>
+                <span class="job-duration">Nov 2024 - Jan 2025</span>
+            </div>
+            <p class="job-location"><i class="fas fa-map-marker-alt"></i> Remote</p>
+            <ul class="job-responsibilities">
+                <li>Worked as Web Development Intern.</li>
+                <li>Built and maintained a responsive web application, improving site performance.</li>
+                <li>Integrated REST APIs to enable seamless communication between front-end and backend services.</li>
+                <li>Worked in an agile team to implement new features, enhancing overall user experience.</li>
+            </ul>
+            <div class="company-name">
+                <a href="https://www.linkedin.com/company/braud-gauge-educational-products-and-services-private-limited/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                    <span>Braud Gauge</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+            <div class="skills">
+                <span class="skill-tag">Software Developer</span>
+                <span class="skill-tag">JS</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">UI/UX Designer</span>
+            </div>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="work-divider">
+
+        <!-- Second Job -->
+        <div class="job">
+            <div class="job-header">
+                <h3>Skitch (Now Polar AI)</h3>
+                <span class="job-duration">Nov 2023 - Dec 2023</span>
+            </div>
+            <p class="job-location"><i class="fas fa-map-marker-alt"></i> Remote</p>
+            <ul class="job-responsibilities">
+                <li>Worked as a Frontend Developer Intern.</li>
+                <li>Created an interactive and user-friendly company website, enhancing UX and engagement.</li>
+                <li>Designed a sleek, modern UI in Figma, ensuring brand consistency and improved aesthetics.</li>
+            </ul>
+            <div class="company-name">
+                <a href="https://www.linkedin.com/company/polarindia/people/" target="_blank" rel="noopener noreferrer">
+                    <span>Skitch</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+            <div class="skills">
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">UI/UX Designer</span>
+                <span class="skill-tag">Frontend</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Studies Section -->
+            <section class="card" id="studies">
+                <div class="card-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>Studies</h2>
+                    <i class="fas fa-chevron-up toggle-icon"></i>
+                </div>
+                <div class="card-content">
+                    <div class="education">
+                        <div class="education-header">
+                            <h3>BACHELOR OF TECHNOLOGY</h3>
+                            <span class="education-duration">2022 - 2026</span>
+                        </div>
+                        <p class="education-location"><i class="fas fa-map-marker-alt"></i> Kattankulathur, Tamil Nadu</p>
+                        <div class="education-tags">
+                            <span class="edu-tag">Computer Science</span>
+                            <span class="edu-tag">Machine Learning</span>
+                            <span class="edu-tag">Operating Systems</span>
+                            <span class="edu-tag">Data Structures</span>
+                            <span class="edu-tag">Programming</span>
+                        </div>
+                        <div class="university-name">
+                            <span>SRM Institute of Science and Technology</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="card" id="projects">
+                <div class="card-header">
+                    <i class="fas fa-code"></i>
+                    <h2>Projects</h2>
+                    <i class="fas fa-chevron-up toggle-icon"></i>
+                </div>
+                <div class="card-content">
+                    <!-- Project 1 -->
+                    <div class="project">
+                        <div class="project-header">
+                            <h3>DRISHTI</h3>
+                            <span class="project-year">Jan 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a voice-enabled assistant for visually impaired individuals using the Gemini API and Kotlin. The app provides real-time object detection, text-to-speech, navigation assistance. A companion app allows caregiver to monitor the users location and provide support. 
+                        </p>
+                        <div class="project-link">
+                            <a href="https://github.com/PK1812KHARE/DRISHTI" target="_blank" rel="noopener noreferrer">
+                                <span>View Project</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                       
+                        <div class="project-tags">
+                            <span class="project-tag">Gemini API</span>
+                            <span class="project-tag">Kotlin</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">TensorFlowl</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project">
+                        <div class="project-header">
+                            <h3>Companion</h3>
+                            <span class="project-year">Feb 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Work in Progress. Developing an AI platform for natural, human-like conversations using advanced NLP and emotion recognition. Users can chat, seek advice, or enjoy companionship with empathetic, context-aware AI. </p>
+                        <div class="project-link">
+                            <span>View project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">GPT-based models</span>
+                            <span class="project-tag">Node.js</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project">
+                        <div class="project-header">
+                            <h3>Stock Market Price Analysis</h3>
+                            <span class="project-year">March 2024</span>
+                        </div>
+                        <p class="project-description">
+                            Research paper under publication. Created a multimodal model for predicting stock market prices, utilizing advanced machine learning techniques to enhance forecasting accuracy </p>
+                        <div class="project-link">
+                            <span>View project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Multi Model</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Collab</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+<section class="card" id="certifications">
+    <div class="card-header">
+        <i class="fas fa-certificate"></i>
+        <h2>Certifications</h2>
+        <i class="fas fa-chevron-up toggle-icon"></i>
+    </div>
+    <div class="card-content">
+        <!-- First Certification Section -->
+        <div class="certification-section">
+            <h3>Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate</h3>
+            <div class="certification">
+                <div class="certification-details">
+                    <p>Oracle Certified</p>
+                </div>
+                <div class="certification-links">
+                    <span class="certification-date">2024</span>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=1335298E1855BA3BBAEFB562F2EDE1949359148936523E5F05F77EA8A9B687C5" class="cert-link" target="_blank">
+                        <span>View Certificate</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="cert-divider">
+
+        <!-- Second Certification Section -->
+        <div class="certification-section">
+            <h3>Cisco Networking Basics</h3>
+            <div class="certification">
+                <div class="certification-details">
+                    <p>Cisco Certification</p>
+                </div>
+                <div class="certification-links">
+                    <span class="certification-date">2025</span>
+                    <a href="https://www.credly.com/badges/26a18089-3969-496f-8d7b-ecea81bae7cf/public_url" class="cert-link" target="_blank">
+                        <span>View Certificate</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="cert-divider">
+
+        <!-- Third Certification Section -->
+        <div class="certification-section">
+            <h3>AI Fundamentals with IBM SkillsBuild</h3>
+            <div class="certification">
+                <div class="certification-details">
+                    <p>IBM AI Fundamentals</p>
+                </div>
+                <div class="certification-links">
+                    <span class="certification-date">20XX</span>
+                    <a href="https://www.credly.com/badges/d1676f27-89bb-4d46-a841-b2db3e836155" class="cert-link" target="_blank">
+                        <span>View Certificate</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+             <!-- Work Section -->
+             <section class="card" id="work">
+                <div class="card-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h2>Volunteering</h2>
+                    <i class="fas fa-chevron-up toggle-icon"></i>
+                </div>
+                <div class="card-content">
+                    <div class="job">
+                        <div class="job-header">
+                            <h3>Google Developers Student Club</h3>
+                            <span class="job-duration">Mar 2023 - Jan 2025</span>
+                        </div>
+                        <p class="job-location"><i class="fas fa-map-marker-alt"></i> Chennai</p>
+                        <ul class="job-responsibilities">
+                            <li>Organized events, conducted workshops and worked on different project.</li>
+                        </ul>
+                        <div class="company-name">
+                            <a href="https://www.gdgsrm.com/" target="_blank" rel="noopener noreferrer">
+                                <span>GDSC</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="skills">
+                            <span class="skill-tag">UI/UX Designer</span>
+                            <span class="skill-tag">Team Building</span>
+                            <span class="skill-tag">Event Organize</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Development</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Horizontal Line -->
+                    <hr class="work-divider">
+
+                    <!-- Second Job -->
+                    <div class="job">
+                        <div class="job-header">
+                            <h3>Newton School Coding Club</h3>
+                            <span class="job-duration">May 2024 - July 2024</span>
+                        </div>
+                        <p class="job-location"><i class="fas fa-map-marker-alt"></i> Remote</p>
+                        <ul class="job-responsibilities">
+                            <li>President</li>
+                            <li>Led a team of 150+ members, organizing coding events , Managed club operations.</li>
+                        </ul>
+                        <div class="company-name">
+                            <a href="https://www.linkedin.com/company/newton-school-coding-club-srmist/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                                <span>NSCC</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="skills">
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Team Management</span>
+                            <span class="skill-tag">Project Manager</span>
+                            <span class="skill-tag">Club Operations</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="card" id="contact">
+                <div class="card-header">
+                    <i class="fas fa-envelope"></i>
+                    <h2>Contact</h2>
+                    <i class="fas fa-chevron-up toggle-icon"></i>
+                </div>
+                <div class="card-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:prashamjain94@gmail.com">prashamjain94@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/prashamjain94/" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Prasham94" target="_blank">GitHub</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+91 9301293804">+91 9301293804</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Prasham Jain. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Include EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS with your User ID
+        (function () {
+            emailjs.init('YOUR_USER_ID'); // Replace with your EmailJS User ID
+        })();
+    </script>
+
+    <!-- Include your custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
