@@ -1,3 +1,0 @@
-# MyPortfolio
-
-prashamjain.vercel.app
